@@ -1,4 +1,4 @@
-package list;
+package listListaTarefa;
 
 public class Tarefa {
 	private String descricao;
@@ -8,6 +8,10 @@ public class Tarefa {
 	}
 	
 	public String getDescricao() {
+		return descricao;
+	}
+	
+	public String toString() {
 		return descricao;
 	}
 }
